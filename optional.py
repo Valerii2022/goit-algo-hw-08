@@ -22,3 +22,7 @@ def merge_k_lists(lists):
 lists = [[1, 4, 5], [1, 3, 4], [2, 6]]
 merged_list = merge_k_lists(lists)
 print("Відсортований список:", merged_list)
+lists_2 = [[1, 3, 4, 7, 9], [1, 2, 6, 8, 10], [2, 6, 7, 9]]
+merged_list_2 = merge_k_lists(lists_2)
+print("Відсортований список:", merged_list_2)
+
